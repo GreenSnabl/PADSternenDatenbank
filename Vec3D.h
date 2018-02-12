@@ -18,7 +18,7 @@ class Vec3D {
 public:
     Vec3D();
     Vec3D(double);
-    Vec3D(double, double, double);
+    Vec3D(double xx, double yy, double zz = 0);
     ~Vec3D();
     
     

@@ -41,7 +41,7 @@ const char Star::get_spectralClass() const
 
 void Star::print()
 {
-    cout << name << "(" << spectralClass << ")";
+    cout << name << " (" << spectralClass << ") @ ";
     position.print();
     cout <<  endl;
 

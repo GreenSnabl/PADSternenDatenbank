@@ -30,7 +30,7 @@ Vec3D::~Vec3D() {
 
 void Vec3D::print()
 {
-    cout << "(" << x << "," <<  y << "," << z << ")" << endl;
+    cout << "(" << x << ", " <<  y << ", " << z << ")" << endl;
 }
 
 Vec3D Vec3D::add(Vec3D vec)

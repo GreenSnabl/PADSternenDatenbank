@@ -29,7 +29,7 @@ int main()
 		cout << "Soll: (2, 2, 2), Ist: ";
 		b.print();
 
-		Vec3D c(2, 3, 0);
+		Vec3D c(2, 3);
 		cout << "Soll: (2, 3, 0), Ist: ";
 		c.print();
 
